@@ -1,5 +1,5 @@
 # IDZSwiftDataTaskPublisher
-A (probably very naïve) attempt at implementing the `dataTaskPublisher(for: URLRequest)` extension on `URLSession` mentioned in WWDC 2019, Session 712.
+A (probably very naïve) attempt at implementing the `dataTaskPublisher(for: URLRequest)` extension on `URLSession` mentioned in WWDC 2019, Session 712. You can see a demo of it at https://developer.apple.com/videos/play/wwdc2019/712/ around 20:32.
 
 There's not much to using it:
 
@@ -14,5 +14,5 @@ _ = URLSession.shared.dataTaskPublisher(for: request)
 dispatchMain()
 ```
 
-Downloads and prints the HTML for http://example.com.
+This example downloads and prints the HTML for http://example.com.
 
