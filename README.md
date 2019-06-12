@@ -16,3 +16,17 @@ dispatchMain()
 
 This example downloads and prints the HTML for http://example.com.
 
+# Using the Package
+
+The package supports the Swift Package Manager. Just add
+```swift
+.package(url: "https://github.com/iosdevzone/IDZSwiftDataTaskPublisher", from: "0.1.0"),
+```
+to your `Package.swift`
+
+# Building the Demo Program
+
+There's a simple demo include in the repository. Change to `Demos/macOS/SimpleDemo` directory then use `swift build` to build it and `swift run` to run it. You should be treated to glorious HTML text on your terminal. 
+
+
+
