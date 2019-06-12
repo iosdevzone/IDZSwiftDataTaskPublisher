@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IDZSwiftDataTaskPublisher",
+        "repositoryURL": "https://github.com/iosdevzone/IDZSwiftDataTaskPublisher",
+        "state": {
+          "branch": null,
+          "revision": "9327a7e54e6d5bea9a7e61b999763e95c0c9074a",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
